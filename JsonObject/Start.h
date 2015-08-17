@@ -32,6 +32,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblSol;
 @property (strong, nonatomic) IBOutlet UILabel *lblPuestaSol;
 
+@property (strong, nonatomic) IBOutlet UILabel *lblDescription;
+
 //Acciones
 - (IBAction)btnGetData:(id)sender;
 

@@ -12,10 +12,9 @@
 
 NSDictionary    *mjsonWeatherObject;
 WeatherObject   *mWeatherObject;
-
 @implementation Declarations
 
-@end
+
 
 /**********************************************************************************************/
 #pragma mark - Particular methods
@@ -86,4 +85,4 @@ WeatherObject   *mWeatherObject;
     }
     @catch (NSException * e) {print(NSLog(@"Exception")) return nil;}
 }
-
+@end
